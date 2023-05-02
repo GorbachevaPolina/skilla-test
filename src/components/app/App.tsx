@@ -2,13 +2,15 @@ import React from 'react';
 import './App.css';
 import Sidebar from '../sidebar/sidebar';
 import Header from '../header/header';
+import Table from '../table/table';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Sidebar />
-      <div>
+      <div className='main'>
         <Header />
+        <Table />
       </div>
     </div>
   );

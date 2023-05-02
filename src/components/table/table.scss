@@ -1,0 +1,62 @@
+.table-container {
+    margin: 20px 120px;
+
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 48px;
+
+        .balance-btn {
+            font-size: 14px;
+            padding: 8px 12px;
+            height: 40px;
+            border: none;
+            background-color: #fff;
+            border-radius: 48px;
+    
+            span {
+                vertical-align: middle;
+            }
+    
+            .balance {
+                color: #899CB1;
+            }
+    
+            img {
+                height: 24px;
+                vertical-align: middle;
+                margin-left: 10px;
+            }
+        }
+
+        .days-info {
+            img {
+                height: 18px;
+                margin-left: 22px;
+                margin-right: 8px;
+            }
+
+            img, span {
+                vertical-align: middle;
+            }
+
+            span {
+                color: #ADBFDF;
+            }
+
+            .arrow:hover {
+                cursor: pointer;
+            }
+
+            .arrow {
+                font-size: 20px;
+            }
+
+            .days {
+                margin-right: 22px;
+                color: #005FF8;
+            }
+        }
+    }
+}

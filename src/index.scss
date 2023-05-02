@@ -6,9 +6,10 @@
   font-family: $font-family;
 }
 
-// body, html, #root {
-//   height: 100%;
-// }
+html, body, #root {
+  min-height: 963px;
+  height: 100%;
+}
 
 body {
   margin: 0;
