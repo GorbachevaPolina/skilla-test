@@ -4,6 +4,8 @@ import calendar from '../../images/calendar.svg'
 import './table.scss'
 import { useSelector, useDispatch } from "../../services/types/store";
 import { ADD_DAYS, SUBSTRACT_DAYS } from "../../services/actions/table-contents";
+import Filters from "../filters/filters";
+import Calls from "../calls/calls";
 
 const Table: FC = () => {
     const { days } = useSelector((store) => store.table)
@@ -44,6 +46,8 @@ const Table: FC = () => {
                     <span onClick={addDays} className="arrow">&#8250;</span>
                 </div>
             </div>
+            <Filters />
+            <Calls />
         </div>
     )
 }

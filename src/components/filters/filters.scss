@@ -1,0 +1,40 @@
+.filters-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+
+    .search {
+        input, img {
+            vertical-align: middle;
+        }
+        input {
+            margin-left: 12px;
+            font-size: 14px;
+            border: none;
+            background-color: inherit;
+            color: #5E7793;
+        }
+    }
+
+    .filters {
+        display: flex;
+        select, button {
+            margin-left: 36px;
+            border: none;
+            color: #5E7793;
+            background-color: inherit;
+        }
+        
+        button {
+            span {
+                margin-left: 8px;
+            }
+        }
+    }
+
+    .filtered {
+        select, button {
+            margin-left: 20px;
+        }
+    }
+}
